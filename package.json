@@ -1,0 +1,50 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "import-data": "node scripts/importData.js",
+    "install-data": "node scripts/installData.js"
+  },
+ "dependencies":{
+  "@clerk/nextjs": "^6.10.6",
+  "@radix-ui/react-slot": "^1.1.1",
+  "@sanity/client": "^6.27.1",
+  "@sanity/icons": "^2.0.0",
+  "@sanity/image-url": "^1.1.0",
+  "@sanity/vision": "^3.0.0",
+  "axios": "^1.7.9",
+  "class-variance-authority": "^0.7.1",
+  "clsx": "^2.1.1",
+  "dotenv": "^16.4.7",
+  "lucide-react": "^0.474.0",
+  "mongodb": "^6.12.0",
+  "next": "^14.0.0",
+  "next-auth": "^4.24.11",
+  "next-sanity": "^6.0.0",
+  "react": "^18.2.0",
+  "react-dom": "^18.2.0",
+  "react-icons": "^5.4.0",
+  "sanity": "^3.0.0",
+  "slugify": "^1.6.6",
+  "styled-components": "^6.1.14",
+  "tailwind-merge": "^2.6.0"
+},
+
+
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.5",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
